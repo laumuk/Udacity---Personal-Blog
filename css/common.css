@@ -38,7 +38,7 @@ body {
 }
 
 .icon-search {
-    background:transparent url(images/icon-search@2x.png) no-repeat center;
+    background:transparent url(../images/icon-search@2x.png) no-repeat center;
     background-size: 19px 17px;
     width: 30px;
     height: 30px;
