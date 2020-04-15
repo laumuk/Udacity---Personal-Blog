@@ -43,9 +43,33 @@
     text-align: center;
 }
 
+.recipe h2 {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
 .recipe-pic {
     height: 450px;
     width: 450px;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    width: 450px; 
+    margin: auto;
+}
+
+figcaption {
+    color: rgb(80, 12, 94);
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+} 
+
+.content {
+    font-style: italic;
 }
 
 @media(max-width: 600px) {
@@ -61,6 +85,10 @@
 
     .recipe-pic {
         height: 350px;
+        width: 350px;
+    }
+
+    figure {
         width: 350px;
     }
 }
@@ -82,6 +110,10 @@
 
     .recipe-pic {
         height: 250px;
+        width: 250px;
+    }
+
+    figure {
         width: 250px;
     }
 }

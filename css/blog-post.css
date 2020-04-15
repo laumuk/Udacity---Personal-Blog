@@ -17,11 +17,28 @@
     color: rgb(69, 41, 82);
     line-height: 20px;
     text-align: center;
+    text-decoration: underline;
+    text-decoration-style: dotted;
 }
 
 #post-content img {
     width: 600px;
     height: 500px;
+}
+
+figure {
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 600px;
+    margin: auto;
+}
+
+figcaption {
+    color: black;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
 }
 
 #the-recipe {
@@ -41,6 +58,7 @@
     list-style-type: square;
     margin-block-start: 1em;
     margin-block-end: 1em;
+    font-weight: bold;
 }
 
 .title-text {
@@ -63,6 +81,10 @@
     margin-left: 70px;
     margin-top: 50px;
     padding: 10px;   
+}
+
+#about-me {
+    font-style: italic;
 }
 
 @media(max-width: 600px) {

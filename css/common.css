@@ -83,6 +83,12 @@ body {
     color: honeydew;
 }
 
+.quotes {
+    font-weight: bold;
+    font-style: italic;
+    color: brown;
+}
+
 @media(max-width: 600px) {
     #title-bar {
         flex-direction: column;
